@@ -36,7 +36,7 @@ function Navbars() {
                         <Nav.Link as={Link} to="/about" style={{ fontFamily: 'Racing Sans One', fontSize: '1.2rem' }}>About</Nav.Link>
                         <Nav.Link as={Link} to="/contact" style={{ fontFamily: 'Racing Sans One', fontSize: '1.2rem' }}>Contact Us</Nav.Link>
                         <Nav.Link as={Link} to="/register" style={{ fontFamily: 'Racing Sans One', fontSize: '1.2rem' }}>Register</Nav.Link>
-                        <Nav.Link as={Link} to="/login" style={{ fontFamily: 'Racing Sans One', fontSize: '1.2rem' }}>Login</Nav.Link>
+                        {/* <Nav.Link as={Link} to="/login" style={{ fontFamily: 'Racing Sans One', fontSize: '1.2rem' }}>Login</Nav.Link> */}
                     </Nav>
                 </Navbar.Collapse>
             </Container>
